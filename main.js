@@ -79,7 +79,7 @@ content.style.cssText = `width:75%;padding:1.5rem 0;margin:auto;margin-top:2rem;
 
 footer.style.cssText = `width:100%;height:50px;background-color:#09999f;display:flex;
 align-items:center;justify-content:center;border-top:1px solid rgba(255,255,255,0.5);`;
-footerSpan.style.cssText = `color:#fff;text-shadow:1px 0 #333,-1px 0 #333, 0 1px #333, 0 -1px #333; font-size:18px`;
+footerSpan.style.cssText = `color:#fff;text-shadow:1px 0 #333,-1px 0 #333, 0 1px #333, 0 -1px #333; font-size:18px;user-select:none;`;
 
 scrollBtn.style.cssText = `position:fixed;bottom:25px;right: 30px;width: 40px;
 height: 40px;border-radius: 50%;background-color:#015d5e;color:#fff;display:flex;align-items:center;
